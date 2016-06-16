@@ -1,0 +1,181 @@
+		.state td:first-child {
+			padding-left: 0px;
+		}
+
+		.district td:first-child {
+			padding-left: 10px;
+		}
+
+		.township td:first-child{
+			padding-left: 20px;
+		}
+
+
+
+		@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+  background-color: #595a6d;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+#searchTable td#searchField {
+	width: 100%;
+}
+
+#searchTable td, #searchTable td input{
+	padding: 0px;
+	margin: 0px;
+	height: 45px;
+}
+
+
+#searchTable td input {
+	background: url(../img/magnifier.png) 98% 45% no-repeat;
+	font-size: 14px;
+	padding: 5px;
+	border: 0px;
+}
+
+#searchTable td select {
+	height: 45px;
+    padding: 10px;
+    margin: 0;
+    border: 0px;
+    font-size: 14px;
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(../img/arrow.png), -webkit-linear-gradient(#fff, #fff 40%, #fff);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   color: #a79d9d;
+   font-size: 14px;
+   overflow: hidden;
+   padding: 5px 10px;
+   white-space: nowrap;
+   width: 170px;
+
+}
+
+
+#searchTable td input {
+	width: 100%;
+}
+
+table {
+	border-spacing: 0px;
+	width: 900px;
+}
+
+#mainTable thead {
+	border-bottom: 1px solid grey;
+}
+
+#mainTable tr td div.typeIcon {
+	border-radius: 50%;
+    background-color: #897ad0;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    cursor: default;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+#mainTable tr td div.typeIcon span {
+	color: white;
+	position: absolute;
+    left: 6px;
+    top: 3px;
+}
+
+#mainTable tr td span.entityGroup {
+	line-height: 30px;
+	display: inline-block;
+}
+
+#mainTable tr td .nbOfChildren {
+	color: #6b6b6b;
+	border-radius: 5%;
+    background-color: #efefef;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    margin: 0px 10px;
+    padding: 4px;
+    font-size: 12px;
+}
+
+#mainTable .entityGroup .operator {
+	padding: 0 5px 0 10px;
+	font-weight: bold;
+}
+
+#mainTable .entityGroup .downloadIcon {
+	background: url('../img/download.png') center no-repeat;
+	height: 30px;
+	width: 27px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+thead td {
+	font-weight: 600;
+	border-bottom: 2px solid grey;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:14px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+
+ 
+td {
+  background:#FFFFFF;
+  padding:10px 14px;
+  text-align:center;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:14px;
+  border-bottom: 1px solid #C1C3D1;
+  border-right: 1px solid #C1C3D1;
+}
+
+td:first-child {
+	text-align: left;
+	width: 345px;
+}

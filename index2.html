@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<title>Array sorter</title>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		
+		<!--<script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script> -->
+
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/temp.css">
+		<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"> -->
+		
+
+	</head>
+	<body>
+		<table id="searchTable">
+			<tr>
+				<td>
+					<select id="filterSelect">
+						<option value="" disabled selected>Filter</option>
+						<option value="state">State</option>
+						<option value="district">District</option>
+						<option value="township">Township</option>
+
+					</select>
+				</td>
+				<td id="searchField">
+					<input type="text" placeholder="Search">
+				</td>
+			</tr>
+		</table>
+		<table id="mainTable">
+			<thead>
+				<tr>
+					<td>Region</td>
+					<td>Last Import</td>
+					<td>Number of forms</td>
+					<td>Number of voters</td>
+					<td>Update</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="1" >
+					<td>
+						<div class="typeIcon">
+							<span>
+								S
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">Shan state </span><span class="downloadIcon"></span></span>
+					</td>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+				<tr data-parent="1" id="1-1" >
+					<td>
+						<div class="typeIcon">
+							<span>
+								D
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">Lollen </span><span class="downloadIcon"></span></span>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+
+				<tr data-parent="1-1" id="1-1-1">
+					<td>
+						<div class="typeIcon">
+							<span>
+								T
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">My Town </span><span class="downloadIcon"></span></span>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+
+				<tr data-parent="1" id="1-2" >
+					<td>
+						<div class="typeIcon">
+							<span>
+								D
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">Lollen </span><span class="downloadIcon"></span></span>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+
+
+				<tr id="2" >
+					<td>
+						<div class="typeIcon">
+							<span>
+								S
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">Shan state </span><span class="downloadIcon"></span></span>
+					</td>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+				<tr data-parent="2" id="2-1" >
+					<td>
+						<div class="typeIcon">
+							<span>
+								D
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">Lollen </span><span class="downloadIcon"></span></span>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+				<tr data-parent="2-1" id="2-2-1">
+					<td>
+						<div class="typeIcon">
+							<span>
+								T
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">My Town </span><span class="downloadIcon"></span></span>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+
+				<tr id="3" >
+					<td>
+						<div class="typeIcon">
+							<span>
+								S
+							</span>
+						</div>
+						<span class="entityGroup"><span class="entityName">Lonely </span><span class="downloadIcon"></span></span>
+					</td>
+					<td>2014/12/12</td>
+					<td>123,456</td>
+					<td>123,456</td>
+					<td>342,456</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+	td {
+		border: 1px solid yellow;
+	}
+
+	tr {
+		.state {
+			padding-left: 0px;
+		}
+
+		.district {
+			padding-left: 10px;
+		}
+
+		.township{
+			padding-left: 20px;
+		}
+	}
+
+}
